@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: darkblue;
+}
+
+.center {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: yellow;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    text-align: center;
+    font-style: italic;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: wheat;
+    background-color: black;
+    padding: 10px 20px;
+}
+
+input[type="text"] {
+    width: calc(100% - 20px); /* Adjust the width to account for padding */
+    height: 30px;
+    margin: 0 auto 20px; /* Center horizontally and add margin-bottom */
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: block; /* Ensure it's treated as a block element for centering */
+}
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: black;
+    color: greenyellow;
+}
+
+#p_output {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    text-align: center;
+    margin-top: 20px;
+}
